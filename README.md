@@ -27,4 +27,7 @@ File Descriptions:
   This file is a workaround for restrictions imposed on Powershell scripts by Windows by default. Windows doesn't generally allow Powershell
   scripts to run, but if we load the script text via 'type' and then pipe it into a new Powershell process... well it doesn't seem
   to care about that.
-  
+
+Customizing:
+
+The idea behind the affinity value is each bit represents a logical CPU core. So the integer value of each core is 2^(core_number) with cores starting at 0. The script currently has core 0 (2^0=1) and core 1 (2^1=2) affinity disabled; the "- 1 - 2" in the script. If you wanted to disable the affinity on cores 2 (2^2=4) and 3 (2^3=8) too, for example, you'd add "- 4 - 8" to the script.
