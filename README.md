@@ -1,6 +1,9 @@
 # POE2-EngineMultithreadingWorkaround
 
-Workaround to temporarily fix the load-screen freezes caused by the "engine multithreading" option. Only tested on the Steam version of the Path of Exile 2 client.
+Workaround to temporarily fix the load-screen freezes caused by the "engine multithreading" option.
+
+Tested on:
+Win11, Powershell 5.1, Steam client of Path Of Exile 2
 
 Installation:
 
