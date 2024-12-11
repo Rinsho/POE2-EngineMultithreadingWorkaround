@@ -29,8 +29,7 @@ File Descriptions:
 - poe.bat
   
   This file is a workaround for restrictions imposed on Powershell scripts by Windows by default. Windows doesn't generally allow Powershell
-  scripts to run, but if we load the script text via 'type' and then pipe it into a new Powershell process... well it doesn't seem
-  to care about that.
+  scripts to run, but if we load the script text and then invoke it directly... well it doesn't seem to care about that.
 
 Customizing:
 
