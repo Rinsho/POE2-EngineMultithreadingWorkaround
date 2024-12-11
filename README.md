@@ -12,7 +12,7 @@ Wherever; just keep the files together.
 
 Use:
 
-Start the Path of Exile 2 game client. When you get to the login screen, right-click 'poe.bat' and select "Run as administrator". As long as there   aren't any errors, you should be good to go. You can double-check everything worked by going to the Windows Start menu, search and select Task Manager, go to the "Details" tab on the bottom left, find and right-click the PathOfExile process, and select "Set affinity". All CPUs should be selected except CPU#0 and CPU#1.
+Start the Path of Exile 2 game client. When you get to the login screen, double-click 'poe.bat'. As long as there aren't any errors, you should be good to go. You can double-check everything worked by going to the Windows Start menu, search and select Task Manager, go to the "Details" tab on the bottom left, find and right-click the PathOfExile process, and select "Set affinity". All CPUs should be selected except CPU#0 and CPU#1.
 
 > NOTE: Also if you don't trust scripts you can always manually set the affinity in Task Manager every time you launch the game.
 
